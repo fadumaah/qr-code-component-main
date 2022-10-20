@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+/* CSS RESET ABOVE */
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  color: #7d889e;
+  font-size: 0.9375rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 1.25em;
+  padding: 1em;
+  width: 20em;
+  height: auto;
+}
+
+img {
+  border-radius: 0.625em;
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  font-weight: bold;
+  color: #1f314f;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 2.5em;
+}
